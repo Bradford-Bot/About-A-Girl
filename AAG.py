@@ -18,4 +18,11 @@ def garage():
     if wdyd == "boxes":
         print("None of these belong to you... Well, besides one box labled: RUBY MIRA. When you open it, you're hit with the smell of ducktape and printer paper."
               "Clothes, socks, old pictures of people you can't recall remembering, and an old stuffed animal of a cat missing one of its bead eyes."
-              "\033[31m" "Ruby:" "\033[0m" "I don't want to look at this anymore.")
+              "\033[31m" "RUBY:" "\033[0m" "I don't want to look at this anymore.")
+    if wdyd == "door":
+        print("Friday turns to you and grins.")
+        print()
+        print("\033[32m" "FRIDAY:" "\033[0m" "Don't mind her. She's just annoyed I cashed in an IOU from years ago to get you here.")
+        print()
+        print("He walks through the door and you follow directly behind him.")
+def lady_house():
